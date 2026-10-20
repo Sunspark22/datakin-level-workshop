@@ -1,0 +1,26 @@
+# Input games, exported games, saves, personal layouts, and Python cache.
+*.gba
+*.gb
+*.nds
+*.elf
+*.map
+*.sav
+*.srm
+*.ss*
+*.log
+*.tmp
+*.zip
+rom/*
+!rom/PUT-ROM-HERE.txt
+workspace/
+output/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+dist/
+.env
+.env.*
+.secrets/
+*.dpapi
+node_modules/

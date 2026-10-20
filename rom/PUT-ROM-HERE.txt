@@ -1,0 +1,10 @@
+Put your original supported Datakin: Server Delver ROM here, named:
+
+Datakin-Server-Delver.gba
+
+Supported originals: v0.79 (recommended) and v0.78.
+README.md lists the exact file sizes and SHA-256 checksums.
+Game: https://circuitfoxes.itch.io/datakin-server-delver
+
+The editor reads this file and never writes to it. No ROM is included.
+Edited ROMs belong in output, not here.

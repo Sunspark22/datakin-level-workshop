@@ -1,0 +1,17 @@
+{
+  "format": "datakin-profile-index-v1",
+  "profiles": [
+    {
+      "file": "datakin-v078.json",
+      "label": "Datakin v0.78",
+      "rom_sha256": "7f8f5efe7da5bdeba40a60c4b21c767ffb896fc228c5bf2895f7dc7c3237c79b",
+      "profile_sha256": "bea3183758b50f760dd0ce5e70c076674df90dba550170fbdb0908f56ddddf18"
+    },
+    {
+      "file": "datakin-v079.json",
+      "label": "Datakin v0.79",
+      "rom_sha256": "78a2b42fe93a42dc43e5a0707cb01548d143edb55dad4d84b5d5825782b3a9a4",
+      "profile_sha256": "f99c3c39d585e91904c6c767fc223174e16a4ce4ad018178f1b5fecb6734195d"
+    }
+  ]
+}

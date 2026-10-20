@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Set up · Datakin Level Workshop</title><link rel="stylesheet" href="/style.css"></head>
+<body><article class="setup"><small>DATAKIN · ROM EDITION</small><h1>Bring your own cartridge</h1>
+<p>Supply your own original <b>Datakin: Server Delver</b> ROM (v0.79 or v0.78) to open its stages. The game is available from <a href="https://circuitfoxes.itch.io/datakin-server-delver" target="_blank" rel="noopener noreferrer">CircuitFoxes on itch.io</a>.</p>
+<ol><li>Put <code>Datakin-Server-Delver.gba</code> in the editor's <code>rom</code> folder.</li><li>Use the original ROM, not a previously edited export. README.md lists the supported SHA-256.</li><li><a id="openWorkshop" class="primary action" href="/">Check ROM and open workshop</a></li></ol>
+<p class="setupStatus" role="status">STATUS_MESSAGE</p>
+<h2>Have a newer game build?</h2>
+<p>Download a verified compatibility profile from the editor's GitHub repository. This optional check downloads only small JSON files; it never uploads your ROM or layouts and never installs code.</p>
+<button id="supportCheck" data-token="SESSION_TOKEN">Check for ROM support</button>
+<p id="supportStatus" role="status"></p>
+<p>Your supplied ROM is read only. Edits are kept in <code>workspace</code>; playable copies go to <code>output</code>. No game art, music, engine source, compiler, or emulator is included.</p>
+</article><script src="/setup.js"></script></body></html>
