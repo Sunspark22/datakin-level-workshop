@@ -12,6 +12,12 @@
       "label": "Datakin v0.79",
       "rom_sha256": "78a2b42fe93a42dc43e5a0707cb01548d143edb55dad4d84b5d5825782b3a9a4",
       "profile_sha256": "f99c3c39d585e91904c6c767fc223174e16a4ce4ad018178f1b5fecb6734195d"
+    },
+    {
+      "file": "datakin-v080-59ae5a38b9e9.json",
+      "label": "Datakin v0.80",
+      "rom_sha256": "59ae5a38b9e9ba68285f2d9da00b1863fa1e18e278112a6e1895ccb7ba4b1234",
+      "profile_sha256": "eeef2e57fd2a5664a9594262c9d361efafbf9aef7e95b2271e77c26948a791a4"
     }
   ]
 }

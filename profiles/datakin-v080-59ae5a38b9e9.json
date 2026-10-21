@@ -1,0 +1,736 @@
+{
+  "format": "datakin-rom-profile-v1",
+  "label": "Datakin v0.80",
+  "sha256": "59ae5a38b9e9ba68285f2d9da00b1863fa1e18e278112a6e1895ccb7ba4b1234",
+  "rom_bytes": 30931176,
+  "revision": 80,
+  "stage_offset": 23344408,
+  "stage_size": 8864,
+  "stage_count": 17,
+  "fields": [
+    {
+      "name": "name",
+      "offset": 0,
+      "capacity": 1,
+      "format": "1I"
+    },
+    {
+      "name": "width",
+      "offset": 4,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "height",
+      "offset": 8,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "theme",
+      "offset": 12,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "draft",
+      "offset": 16,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "spawn",
+      "offset": 20,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "checkpoint",
+      "offset": 28,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "exit",
+      "offset": 36,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "byte_id",
+      "offset": 44,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "platform_count",
+      "offset": 48,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "enemy_count",
+      "offset": 52,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "pickup_count",
+      "offset": 56,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "platforms",
+      "offset": 60,
+      "capacity": 66,
+      "format": "264i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ]
+    },
+    {
+      "name": "enemies",
+      "offset": 1116,
+      "capacity": 42,
+      "format": "168i",
+      "keys": [
+        "x",
+        "y",
+        "hp",
+        "kind"
+      ]
+    },
+    {
+      "name": "pickups",
+      "offset": 1788,
+      "capacity": 24,
+      "format": "48i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "mover_count",
+      "offset": 1980,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "wind_count",
+      "offset": 1984,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "spike_count",
+      "offset": 1988,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "boss",
+      "offset": 1992,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "comate",
+      "offset": 1996,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "movers",
+      "offset": 2004,
+      "capacity": 37,
+      "format": "296i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "axis",
+        "travel",
+        "period",
+        "phase"
+      ]
+    },
+    {
+      "name": "winds",
+      "offset": 3188,
+      "capacity": 18,
+      "format": "108i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "dx",
+        "dy"
+      ]
+    },
+    {
+      "name": "spikes",
+      "offset": 3620,
+      "capacity": 48,
+      "format": "192i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ]
+    },
+    {
+      "name": "checkpoint_count",
+      "offset": 4388,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "checkpoints",
+      "offset": 4392,
+      "capacity": 6,
+      "format": "12i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "terrain_count",
+      "offset": 4440,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "terrain",
+      "offset": 4444,
+      "capacity": 14,
+      "format": "70i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "rise",
+        "ice"
+      ]
+    },
+    {
+      "name": "trap_count",
+      "offset": 4724,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "laser_count",
+      "offset": 4728,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "vanish_count",
+      "offset": 4732,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "traps",
+      "offset": 4736,
+      "capacity": 12,
+      "format": "84i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "axis",
+        "travel",
+        "period"
+      ]
+    },
+    {
+      "name": "lasers",
+      "offset": 5072,
+      "capacity": 16,
+      "format": "80i",
+      "keys": [
+        "x",
+        "y",
+        "h",
+        "dir",
+        "phase"
+      ]
+    },
+    {
+      "name": "vanish",
+      "offset": 5392,
+      "capacity": 24,
+      "format": "24i"
+    },
+    {
+      "name": "grass_count",
+      "offset": 5488,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "water_count",
+      "offset": 5492,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "vine_count",
+      "offset": 5496,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "grass",
+      "offset": 5500,
+      "capacity": 13,
+      "format": "52i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ]
+    },
+    {
+      "name": "waters",
+      "offset": 5708,
+      "capacity": 4,
+      "format": "16i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ]
+    },
+    {
+      "name": "vines",
+      "offset": 5772,
+      "capacity": 12,
+      "format": "36i",
+      "keys": [
+        "x",
+        "y",
+        "length"
+      ]
+    },
+    {
+      "name": "lava_count",
+      "offset": 5916,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "jet_count",
+      "offset": 5920,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "rail_count",
+      "offset": 5924,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "arena_count",
+      "offset": 5928,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "lava",
+      "offset": 5932,
+      "capacity": 15,
+      "format": "60i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ]
+    },
+    {
+      "name": "jets",
+      "offset": 6172,
+      "capacity": 12,
+      "format": "60i",
+      "keys": [
+        "x",
+        "y",
+        "h",
+        "period",
+        "phase"
+      ]
+    },
+    {
+      "name": "rails",
+      "offset": 6412,
+      "capacity": 2,
+      "format": "6i",
+      "keys": [
+        "platform",
+        "left",
+        "right"
+      ]
+    },
+    {
+      "name": "arena",
+      "offset": 6436,
+      "capacity": 11,
+      "format": "11i"
+    },
+    {
+      "name": "cache_count",
+      "offset": 6480,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "chemical_count",
+      "offset": 6484,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "caches",
+      "offset": 6488,
+      "capacity": 3,
+      "format": "9i",
+      "keys": [
+        "x",
+        "y",
+        "bits"
+      ]
+    },
+    {
+      "name": "chemicals",
+      "offset": 6524,
+      "capacity": 19,
+      "format": "76i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h"
+      ]
+    },
+    {
+      "name": "emitter_count",
+      "offset": 6828,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "arc_count",
+      "offset": 6832,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "belt_count",
+      "offset": 6836,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "emitters",
+      "offset": 6840,
+      "capacity": 10,
+      "format": "60i",
+      "keys": [
+        "x",
+        "y",
+        "h",
+        "kind",
+        "period",
+        "phase"
+      ]
+    },
+    {
+      "name": "arcs",
+      "offset": 7080,
+      "capacity": 7,
+      "format": "42i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "period",
+        "phase"
+      ]
+    },
+    {
+      "name": "belts",
+      "offset": 7248,
+      "capacity": 3,
+      "format": "18i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "dx",
+        "period"
+      ]
+    },
+    {
+      "name": "spotlight_count",
+      "offset": 7320,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "spotlights",
+      "offset": 7324,
+      "capacity": 19,
+      "format": "190i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "travel",
+        "period",
+        "phase",
+        "dir",
+        "on",
+        "off"
+      ]
+    },
+    {
+      "name": "shadow_dusk",
+      "offset": 8084,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "shadow_library_entry",
+      "offset": 8088,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "shadow_blackout_start",
+      "offset": 8092,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "shadow_blackout_end",
+      "offset": 8096,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "switch_count",
+      "offset": 8100,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "switches",
+      "offset": 8104,
+      "capacity": 5,
+      "format": "10i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "road_entry",
+      "offset": 8144,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "road_return",
+      "offset": 8152,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "miniboss_entry",
+      "offset": 8160,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "miniboss_exit",
+      "offset": 8168,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "cloud_count",
+      "offset": 8176,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "clouds",
+      "offset": 8180,
+      "capacity": 8,
+      "format": "8i"
+    },
+    {
+      "name": "section_count",
+      "offset": 8212,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "sections",
+      "offset": 8216,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "w"
+      ]
+    },
+    {
+      "name": "top",
+      "offset": 8224,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "crusher_count",
+      "offset": 8228,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "crushers",
+      "offset": 8232,
+      "capacity": 13,
+      "format": "104i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "axis",
+        "travel",
+        "period",
+        "phase"
+      ]
+    },
+    {
+      "name": "storm_count",
+      "offset": 8648,
+      "capacity": 1,
+      "format": "1i"
+    },
+    {
+      "name": "storms",
+      "offset": 8652,
+      "capacity": 5,
+      "format": "25i",
+      "keys": [
+        "x",
+        "y",
+        "w",
+        "h",
+        "period"
+      ]
+    },
+    {
+      "name": "flight_start",
+      "offset": 8752,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "flight_end",
+      "offset": 8760,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "spiral",
+      "offset": 8768,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "spiral_exit",
+      "offset": 8776,
+      "capacity": 1,
+      "format": "2i",
+      "keys": [
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "surfaces",
+      "offset": 8784,
+      "capacity": 78,
+      "format": "78B"
+    }
+  ],
+  "summon_reserve": {
+    "water": 2,
+    "shadow": 8
+  }
+}
